@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                     i++;
                 } else {
                     mCommentedText.setVisibility(View.VISIBLE);
-                    mCommentedText.setText(getString(R.string.comment_preface) + " " + mCommentText.getText());
+                    mCommentedText.setText(getString(R.string.comment_preface) + " "
+                            + mCommentText.getText());
                     mCommentButton.setVisibility(View.INVISIBLE);
                     mCommentText.setVisibility(View.INVISIBLE);
                 }
